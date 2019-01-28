@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06548a1e-1608-4bc4-97a6-8b3a118af972" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/context.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/helpers.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/import-mappers.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/mappers.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/parent-type.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/codegen-watch.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/codegen.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/config/gql-gen.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/generate-all.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/generate-watch.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/comment-added.subscription.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/comment.query.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/comments-page-comment.fragment.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/current-user.query.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/feed-entry.fragment.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/feed.query.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/flow.flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/graphql-declared-modules.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/new-entry.mutation.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/repo-info.fragment.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/schema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/submit-comment.mutation.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/types.avoidOptionals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/types.enumsAsTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/types.immutableTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/types.noNamespaces.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/types.reactApollo.noNamespaces.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/types.reactApollo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/vote-buttons.fragment.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/githunt/vote.mutation.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/init.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/CreateReviewForEpisode.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/HeroAndFriendsNames.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/HeroAppearsIn.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/HeroDetails.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/HeroDetailsWithFragment.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/HeroName.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/HeroNameConditional.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/HeroParentTypeDependentField.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/HeroTypeDependentAliasedField.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/HumanWithNullWeight.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/TwoHeroes.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/schema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/types.avoidOptionals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/types.immutableTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/types.noNamespaces.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/types.skipSchema.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/star-wars/types.uppercase-enums.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-message/documents.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-message/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-message/schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-message/types.reactApollo.noNamespaces.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-message/types.stencilApollo.noNamespaces.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-mongodb/schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-mongodb/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/flow-types.flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/local/schema-ast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/local/schema-formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/local/schema-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/local/schema-text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/local/schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/resolvers-root.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/resolvers-types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/schema-ast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/schema-formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/schema-json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/schema-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/schema-text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/schema-with-imports.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/schema-with-root.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/schema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/typings.avoidOptionals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/typings.immutableTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/test-schema/typings.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/custom-codegen/extend-schema.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/custom-codegen/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/custom-codegen/using-handlebars.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/custom-codegen/validate-configuration.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/custom-codegen/write-your-plugin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/getting-started/codegen-config.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/getting-started/config-field.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/getting-started/documents-field.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/getting-started/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/getting-started/require-field.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/getting-started/schema-field.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/integrations/apollo-link-state.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/integrations/create-react-app.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/migration/from-0-13.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/add.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/flow-documents.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/flow-resolvers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/flow.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/fragment-matcher.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/time.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/typescript-apollo-angular.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/typescript-client.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/typescript-common.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/typescript-graphql-files-modules.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/typescript-mongodb.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/typescript-react-apollo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/typescript-resolvers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plugins/typescript-server.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lerna.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/declarations.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/cli.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/codegen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/errors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/execute-plugin.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/generate-and-save.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/helpers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/init.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/load.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/loaders/documents/document-from-string.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/loaders/documents/document-loader.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/loaders/documents/documents-from-glob.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/loaders/documents/validate-documents.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/loaders/schema/introspection-from-file.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/loaders/schema/introspection-from-url.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/loaders/schema/schema-from-export.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/loaders/schema/schema-from-string.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/loaders/schema/schema-from-typedefs.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/loaders/schema/schema-loader.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/merge-schemas.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/old-cli-config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/utils/cli-error.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/utils/document-finder.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/utils/file-exists.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/utils/is-browser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/utils/listr-renderer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/utils/prettier.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/utils/watcher.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/src/yml.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/__mocks__/fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/__mocks__/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/__snapshots__/document-finder.spec.ts.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/cli-error.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/cli-flags.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/cli.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/codegen.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/custom-loaders/custom-documents-loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/custom-loaders/custom-schema-loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/custom-loaders/invalid-export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/custom-loaders/invalid-return-value-documents-loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/custom-loaders/invalid-return-value-schema-loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/custom-plugins/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/custom-plugins/checks-extended-schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/custom-plugins/extends-schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/custom-plugins/invalid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/custom-plugins/validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/document-finder.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/dummy-require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/introspection-from-file.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/issues/issue-1068.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/loaders/schema/url-loader.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/schema-from-export.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/schema-from-string.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/schema-from-typedefs.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/additional-schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/invalid-directive.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/invalid-fields.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/js-my-fragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/js-query-with-my-fragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/my-fragment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/query-with-commented-fragment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/query-with-my-fragment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/test-schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/ts-features-with-query.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/unused-variable.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-documents/valid.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/1.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/10.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/11.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/12.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/13.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/14.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/15.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/16.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/3.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/4.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/5.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/6.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/7.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/8.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/9.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/ByteOrderMask.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/loaders/default-export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/loaders/module-exports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/loaders/promise-export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/loaders/schema-export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/schema-dir/query.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/schema-dir/schema.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/schema-dir/user.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tests/test-files/schema-dir/with-extend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-cli/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/debugging.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/operations/build-selection-set.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/operations/transform-document.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/operations/transform-fragment-document.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/operations/transform-operation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/operations/transform-variables.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/schema/implementing-types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/schema/resolve-arguments.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/schema/resolve-type-indicators.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/schema/resolve-type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/schema/schema-to-template-context.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/schema/transform-directives.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/schema/transform-enum.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/schema/transform-fields.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/schema/transform-interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/schema/transform-object.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/schema/transform-scalar.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/schema/transform-union.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/testing/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/utils/get-directives.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/utils/get-field-def.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/utils/get-root.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/utils/introspection-to-schema.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/utils/logger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/utils/object-map-to-array.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/utils/parse.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/utils/to-pascal-case.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/src/yml-config-types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/get-directives.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/get-field-def.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/get-root.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/introspection-to-schema.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/parse.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/resolve-type-indicators.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/resolve-type.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/schema-to-template-context.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/transform-arguments.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/transform-directives.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/transform-document.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/transform-enum.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/transform-fields.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/transform-interface.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/transform-object.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/transform-scalar.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/transform-union.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tests/transform-variables.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graphql-codegen-core/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-apollo-angular-template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-apollo-angular-template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-graphql-files-typescript-modules/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-graphql-files-typescript-modules/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-introspection-template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-introspection-template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-typescript-mongodb-template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-typescript-mongodb-template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-typescript-react-apollo-template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-typescript-react-apollo-template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-typescript-resolvers-template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-typescript-resolvers-template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-typescript-template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/old-templates/graphql-codegen-typescript-template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/add/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/add/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/add/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/add/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/add/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-documents/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-documents/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-documents/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-documents/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-documents/src/selection-set-to-object.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-documents/src/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-documents/src/visitor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-documents/tests/flow-documents.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-documents/tests/validate-flow.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-documents/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-resolvers/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-resolvers/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-resolvers/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-resolvers/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-resolvers/src/visitor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-resolvers/tests/flow-resolvers.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-resolvers/tests/validate-flow.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow-resolvers/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow/src/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow/src/variables-to-object.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow/src/visitor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow/tests/flow.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow/tests/validate-flow.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/flow/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/fragment-matcher/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/fragment-matcher/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/fragment-matcher/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/fragment-matcher/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/fragment-matcher/tests/plugin.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/fragment-matcher/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/introspection/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/introspection/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/introspection/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/introspection/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/introspection/tests/introspection.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/introspection/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/schema-ast/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/schema-ast/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/schema-ast/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/schema-ast/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/schema-ast/tests/schema-ast.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/schema-ast/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/time/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/time/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/time/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/time/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/time/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/src/helpers/directives.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/src/helpers/generate-fragments.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/src/helpers/gql.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/src/helpers/import-ng-modules.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/src/helpers/named-client.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/src/helpers/ngmodule-directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/src/helpers/provided-in.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/src/helpers/to-fragment-name.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/src/polyfills.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/polyfills.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/src/root.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/tests/apollo-angular.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/tests/files/schema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-apollo-angular/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-client/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-client/src/helpers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-client/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-client/src/polyfills.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-client/src/root.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-client/src/selection-set.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-client/tests/files/schema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-client/tests/typescript-client.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-client/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-common/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-common/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-common/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-common/src/enum.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-common/src/helpers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-common/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-common/src/polyfills.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-common/src/root.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-common/src/type.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-common/tests/typescript-common.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-common/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-graphql-files-modules/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-graphql-files-modules/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-graphql-files-modules/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-graphql-files-modules/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-graphql-files-modules/src/polyfills.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-graphql-files-modules/src/root.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-graphql-files-modules/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/helpers/entity-fields.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/helpers/filter-model-fields.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/helpers/if-not-root-type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/helpers/is-array.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/helpers/is-primitive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/polyfills.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/templates/index.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/templates/interface.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/templates/schema.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/templates/type.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/templates/union.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/tests/typescript-mongo.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-mongodb/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/codegen.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/images.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/components/App/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/components/App/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/components/App/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/components/TestWithComponent/TestWithComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/components/TestWithFragment/TestWithFragment.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/components/TestWithHOC/TestWithHOC.container.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/components/TestWithHOC/TestWithHOC.view.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/generated-models.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/registerServiceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/schema/all-posts.query.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/schema/post-fragment.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/src/schema/upvote-post.mutation.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/tsconfig.prod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/example/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/src/helpers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/src/polyfills.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/src/root.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/tests/files/schema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/tests/react-apollo.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-react-apollo/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/context.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/context.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/directive.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/directive.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/import-mappers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/import-mappers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/mappers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/mappers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/parent-type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parent-type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/polyfills.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/resolve-type.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/resolve-type.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/resolver.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/resolver.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/root.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/root.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/scalar.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/scalar.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/tests/typescript-resolvers.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/typescript-resolvers.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-resolvers/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-server/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-server/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-server/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-server/src/polyfills.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-server/src/root.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-server/tests/typescript-server.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-server/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/codegen.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/src/components.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/src/components/my-component-with-codegen/allPosts.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/src/components/my-component-with-codegen/my-component-with-codegen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/src/components/my-component-with-codegen/my-component-with-codegen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/src/components/my-component-with-codegen/upvotePost.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/src/generated-models.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/src/global/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/stencil.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/example/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/src/helpers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/src/polyfills.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/src/root.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/tests/files/schema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/tests/stencil-apollo.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/typescript-stencil-apollo/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/boilerplate/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/boilerplate/src/config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/boilerplate/src/documents.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/boilerplate/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/boilerplate/src/polyfills.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/boilerplate/src/schema.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/boilerplate/src/template.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/boilerplate/tests/example.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/boilerplate/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/cli/codegen-templates-scripts-build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/cli/codegen-templates-scripts-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/cli/codegen-templates-scripts-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/cli/codegen-templates-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/codegen-templates-scripts/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-handlebars-helpers/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-handlebars-helpers/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-handlebars-helpers/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-handlebars-helpers/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-handlebars-helpers/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-helpers/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-helpers/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-helpers/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-helpers/src/build-files-array.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-helpers/src/flatten-types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-helpers/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-helpers/src/resolve-external-module-and-fn.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-helpers/src/typings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/plugins-helpers/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renovate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/Hyperlink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/TextArea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/TextInput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/help/ContactForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/help/ContactFormController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/home/CompanyCards/CompanyCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/home/CompanyCards/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/home/FeatureCards/FeatureCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/home/FeatureCards/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/home/IODemo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/i18n/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/lambda/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/src/GraphQL_Logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/src/editor.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/src/examples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/src/magic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/webpack.config.extend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/live-demo/webpackDevServer.config.extend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/netlify.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/pages/en/help.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/pages/en/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/sidebars.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/siteConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/css/help.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/css/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/companies/airfrance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/companies/klm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/companies/schneider.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/gear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/gql-codegen-cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/gql-codegen-cover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/gql-codegen-horizontal-back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/gql-codegen-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/gql-codegen-horizontal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/gql-codegen-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/gql-codegen-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/hexagons/blue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/hexagons/pink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/more-options.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/puzzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/socials/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/socials/medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/socials/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/img/v13-migration-cli.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/lib/sweetalert2.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/utils/validations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>QueryResolvers</find>
+      <find>Partial</find>
+      <find>options</find>
+      <find>isPartial</find>
+      <find>getFieldType</find>
+      <find>QueryResolver</find>
+      <find>convertedType</find>
+      <find>partial</find>
+      <find>Partial&lt;</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/packages/plugins/</dir>
+      <dir>$PROJECT_DIR$/</dir>
+      <dir>$PROJECT_DIR$/packages/plugins/typescript-resolvers</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/packages/plugins/typescript-common/src/type.handlebars" />
+        <option value="$PROJECT_DIR$/packages/plugins/typescript-resolvers/package.json" />
+        <option value="$PROJECT_DIR$/packages/plugins/typescript-resolvers/tests/typescript-resolvers.spec.ts" />
+        <option value="$PROJECT_DIR$/packages/plugins/typescript-common/dist/helpers.d.ts" />
+        <option value="$PROJECT_DIR$/packages/plugins/typescript-common/src/helpers.ts" />
+        <option value="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/resolver.handlebars" />
+        <option value="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/index.ts" />
+        <option value="$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/helpers.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="3440" />
+    <option name="height" value="1417" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="graphql-code-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphql-code-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v10.8.0/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Resolvers.should define default parent type" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/packages/plugins/typescript-resolvers" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/packages/plugins/typescript-resolvers/tests/typescript-resolvers.spec.ts" />
+      <test-names>
+        <test-name value="Resolvers" />
+        <test-name value="should define default parent type" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Resolvers.should define default parent type" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06548a1e-1608-4bc4-97a6-8b3a118af972" name="Default Changelist" comment="" />
+      <created>1548398232536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548398232536</updated>
+      <workItem from="1548398234135" duration="10037000" />
+      <workItem from="1548649008897" duration="3081000" />
+      <workItem from="1548656914408" duration="310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Resolvers_should_define_default_parent_type - 2019.01.25 at 12h 33m 22s.xml">
+      <configuration name="Resolvers.should define default parent type" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13428000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="3440" height="1417" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12104338" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32987013" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="GraphQL" order="9" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32987013" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5419255" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Quokka" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/templates/index.handlebars" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/templates/interface.handlebars" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/templates/schema.handlebars" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/templates/type.handlebars" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-mongodb/src/templates/union.handlebars" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-common/src/type.handlebars" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-common/src/root.handlebars" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-common/src/enum.handlebars" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-client/tests/typescript-client.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-resolvers/package.json" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-common/tests/typescript-common.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-server/dist/index.js" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/mappers.ts" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/context.ts" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-common/dist/helpers.d.ts" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-resolvers/tests/typescript-resolvers.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/index.ts" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/helpers.ts" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-common/src/helpers.ts" />
+    <entry file="file://$PROJECT_DIR$/packages/graphql-codegen-cli/src/helpers.ts" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-resolvers/src/resolver.handlebars" />
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-mongodb/dist/index.js" />
+    <entry file="file://$PROJECT_DIR$/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="5080" column="28" selection-start-line="5080" selection-start-column="20" selection-end-line="5080" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/plugins/typescript-resolvers/dist/index.js" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

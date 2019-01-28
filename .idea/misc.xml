@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/.prettierrc" />
+    <file url="file://$PROJECT_DIR$/CHANGELOG.md" />
+    <file url="file://$PROJECT_DIR$/lerna.json" />
+    <file url="file://$PROJECT_DIR$/package.json" />
+    <file url="file://$PROJECT_DIR$/README.md" />
+    <file url="file://$PROJECT_DIR$/renovate.json" />
+    <file url="file://$PROJECT_DIR$/tslint.json" />
+    <file url="file://$PROJECT_DIR$/yarn.lock" />
+  </component>
+</project>

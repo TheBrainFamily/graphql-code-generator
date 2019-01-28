@@ -1,10 +1,4 @@
-.idea
-.npmrc
-.yarnclean
-lerna-debug.log
-yarn-error.log
 node_modules
-website/build
-website/functions
-website/i18n
-website/static/live-demo
+npm-debug.log
+temp
+yarn-error.log
